@@ -1,0 +1,111 @@
+.login {
+    min-height: 100vh;
+    background: url(/7008.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 100vh; /* Full viewport height */
+    background-color: #001030; /* Background color */
+    position: relative; /* To position the logo */
+    overflow: hidden;
+    transition: background-color 0.2s ease-in-out;
+}
+.logo_chat {
+    position: absolute;
+    top: 20px; /* Distance from the top */
+    left: 20px; /* Distance from the left */
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between logo and text */
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+.logo_chat h4{
+    color: white;
+    font-weight: 600; /* Make it bold for more emphasis */
+    font-size: 1.3rem; /* Increase font size */
+    text-transform: uppercase; /* To give a more polished and modern look */
+    letter-spacing: 1px;
+    font-size: 45px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+.logo_chat h4:hover {
+    transform: scale(1.1)
+}
+.logo_chat img {
+    width: max(10vw, 100px); /* Adjust size responsively */
+    height: auto;
+    
+}
+.logo_chat img:hover {
+    transform: scale(1.1); /* Larger zoom for the logo itself */
+}
+.login-form{
+    background: white;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+}
+.login-form h2 {
+    font-weight: 500;
+}
+.form-input {
+    padding: 8px 10px;
+    border: 1px solid #c9c9c9;
+    border-radius: 4px;
+    outline: #1E17D1;
+}
+.form-input:focus {
+    outline: none;
+    border-color: #4db8ff;
+    box-shadow: 0 0 5px #4db8ff;
+    font-size: 1rem;
+    transition: box-shadow 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+.login-form button{
+    padding: 10px;
+    background-color: #2620d1;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+.login-form button:hover {
+    background-color: #0a0ae3;
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+.login-term{
+    display: flex;
+    gap: 5px;
+    font-size: 12px;
+    color: #808080;
+    transition: color 0.2s ease-in-out;
+}
+.login-forgot{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    transition: color 0.2s ease-in-out;
+}
+.login-toggle{
+    font-size: 13px;
+    color: #5c5c5c;
+}
+.login-toggle span{
+    font-weight: 500;
+    color: #0000be;
+    cursor: pointer;
+}
+@media (max-width:768px) {
+    .login {
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+    }
+}
