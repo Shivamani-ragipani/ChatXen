@@ -13,8 +13,8 @@ The application supports user authentication, message storage, and real-time upd
 
 <h3>Technologies Used</h3>
 
-<h2>Frontend<h2>:
-  
+<h2>Frontend<h2>
+ <p> 
 React
 Vite
 Firebase (Firestore, Authentication, Storage)
@@ -22,6 +22,7 @@ React Context API
 React Hooks
 CSS (Custom styles)
 Bootstrap
+ </p>
 
 <h2>Backend</h2>:
 Firebase (Firestore for real-time message storage)
