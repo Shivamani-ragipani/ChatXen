@@ -14,16 +14,17 @@ The application supports user authentication, message storage, and real-time upd
 <h3>Technologies Used</h3>
 
 <h2>Frontend<h2>:
-  - React
-  - Vite
-  - Firebase (Firestore, Authentication, Storage)
-  - React Context API
-  - React Hooks
-  - CSS (Custom styles)
-  - Bootstrap
+  
+React
+Vite
+Firebase (Firestore, Authentication, Storage)
+React Context API
+React Hooks
+CSS (Custom styles)
+Bootstrap
 
 <h2>Backend</h2>:
-  - Firebase (Firestore for real-time message storage)
+Firebase (Firestore for real-time message storage)
 
 <h3>Installation</h3>
 
@@ -38,56 +39,47 @@ The application supports user authentication, message storage, and real-time upd
 
    ```bash
    git clone https://github.com/Shivamani-ragipani/ChatXen.git
-Navigate to the project directory:
+2. Navigate to the project directory:
 
 bash
-Copy
-Edit
 cd ChatXen
-Install the dependencies:
+
+3. Install the dependencies:
 
 If you are using npm:
 
 bash
-Copy
-Edit
 npm install
+
 Or, if you are using yarn:
 
 bash
-Copy
-Edit
 yarn install
-Set up Firebase:
+
+4. Set up Firebase:
 
 Go to Firebase Console.
 Create a new project or use an existing one.
 Set up Firebase Authentication, Firestore, and Storage.
 Download the Firebase config file and paste it into your src/config/firebase.js.
-Run the app locally:
+
+5. Run the app locally:
 
 If you are using npm:
 
 bash
-Copy
-Edit
 npm run dev
+
 Or, if you are using yarn:
 
 bash
-Copy
-Edit
 yarn dev
-Visit http://localhost:3000 to see the app in action.
 
-Contributing
+6. Visit http://localhost:3000 to see the app in action.
+
+<h3>Contributing</h3>
 If you would like to contribute to this project, feel free to fork the repository, create a new branch, and submit a pull request. Please make sure to follow the code of conduct and respect the project's structure.
 
-License
+<h3>License</h3>
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-vbnet
-Copy
-Edit
-
-You can now copy this content into the `README.md` file in your project directory. Let me know if you'd like
