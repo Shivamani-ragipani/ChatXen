@@ -40,24 +40,25 @@ The application supports user authentication, message storage, and real-time upd
    git clone https://github.com/Shivamani-ragipani/ChatXen.git
 Navigate to the project directory:
 
-bash:
+bash
+Copy
+Edit
 cd ChatXen
-
 Install the dependencies:
 
 If you are using npm:
 
 bash
+Copy
+Edit
 npm install
-
 Or, if you are using yarn:
 
 bash
 Copy
 Edit
 yarn install
-
-<b>Set up Firebase</b>
+Set up Firebase
 
 Go to Firebase Console.
 Create a new project or use an existing one.
@@ -66,13 +67,15 @@ Download the Firebase config file and paste it into your src/config/firebase.js.
 Run the app locally:
 
 bash
+Copy
+Edit
 npm run dev
-
 Or:
 
 bash
+Copy
+Edit
 yarn dev
-
 Visit http://localhost:3000 to see the app in action.
 
 Usage
