@@ -13,7 +13,7 @@ The application supports user authentication, message storage, and real-time upd
 
 <h3>Technologies Used</h3>
 
-<h2>Frontend<h2>
+<h2>Frontend</h2>
  <p> 
 React
 Vite
